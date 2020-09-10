@@ -5,14 +5,17 @@
         "android": "expo start --android",
         "ios": "expo start --ios",
         "web": "expo start --web",
-        "eject": "expo eject"
+        "eject": "expo eject",
+        "emu": "~/Android/Sdk/emulator/emulator -avd Pixel_2_API_30"
     },
     "dependencies": {
+        "@use-expo/font": "^2.0.0",
         "babel-eslint": "^10.1.0",
         "expo": "~37.0.3",
         "react": "~16.9.0",
         "react-dom": "~16.9.0",
         "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+        "react-native-scalable-image": "^1.0.0",
         "react-native-web": "~0.11.7"
     },
     "devDependencies": {
@@ -25,5 +28,10 @@
         "eslint-plugin-react": "^7.20.6",
         "eslint-plugin-react-hooks": "^4.1.0"
     },
-    "private": true
+    "private": true,
+    "rnpm": {
+        "assets": [
+            "./App/assets/fonts/"
+        ]
+    }
 }
