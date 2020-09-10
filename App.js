@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { StyleSheet, SafeAreaView, StatusBar, View } from "react-native";
-import Main from "./App/screens/views/Main";
-import globalStyles from "./App/screens/styles/globalStyles";
-import NavBar from "./App/screens/components/NavBar";
+import Main from "./App/views/Main";
+import globalStyles from "./App/styles/globalStyles";
+import NavBar from "./App/components/NavBar";
 import { useFonts } from "@use-expo/font";
 import { AppLoading } from "expo";
 
