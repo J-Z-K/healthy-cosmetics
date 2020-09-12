@@ -12,7 +12,7 @@ export default function Main() {
             <MainLogo />
             <View style={styles.containerGroup}>
                 <Image
-                    source={require("../../assets/podjebka.png")}
+                    source={require("../assets/podjebka.png")}
                     width={Dimensions.get("window").width}
                 />
                 <View style={styles.scanBox}>
