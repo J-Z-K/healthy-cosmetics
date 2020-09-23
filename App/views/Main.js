@@ -17,6 +17,7 @@ export default function Main() {
                 />
                 <View style={styles.scanBox}>
                     <StyledButton
+                        icon="search"
                         label="product scan"
                         onPress={() => {
                             console.log("Skanowanie...");

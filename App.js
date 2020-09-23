@@ -5,6 +5,7 @@ import globalStyles from "./App/styles/globalStyles";
 import NavBar from "./App/components/NavBar";
 import { useFonts } from "@use-expo/font";
 import { AppLoading } from "expo";
+import Search from "./App/views/Search";
 
 export default function App() {
     const [isLoaded] = useFonts({
@@ -20,7 +21,8 @@ export default function App() {
             <SafeAreaView style={globalStyles.AndroidSafeArea}>
                 <View style={styles.container}>
                     {/* TODO: add navigation here */}
-                    <Main />
+                    {/* <Main /> */}
+                    <Search />
                     <NavBar />
                 </View>
             </SafeAreaView>
